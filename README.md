@@ -1,6 +1,8 @@
 # Amazon Clone E-commerce Website (HTML & CSS)
 
-##[Live Demo](https://myamazonclone4.netlify.app/)
+# Project Overview:👇
+
+# [Live Demo](https://myamazonclone4.netlify.app/)
 
 ### Key Features:
 
@@ -14,7 +16,7 @@
 
 - Responsive Design: Ensured mobile and desktop compatibility using media queries.
 
-####Technologies Used:
+#### Technologies Used:
 
 - HTML5: Structured the webpage layout with semantic elements.
 
