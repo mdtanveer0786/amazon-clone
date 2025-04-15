@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     font-family: Arial;
     border: border-box;
@@ -261,3 +261,83 @@ ul a {
 .copyright {
     padding-top: 5px;
 }
+
+/* 🔽 Responsive for tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+    .nav-search {
+      width: 80%;
+    }
+  
+    .panel-ops {
+      display: none;
+    }
+  
+    .shop-section {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .box {
+      width: 45%;
+      margin: 10px 0;
+    }
+  
+    .hero-section {
+      height: 250px;
+      background-position: center;
+    }
+  }
+  
+  /* 🔽 Responsive for mobile phones */
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .nav-logo,
+    .nav-address,
+    .nav-signin,
+    .nav-return,
+    .nav-cart {
+      margin: 5px 0;
+    }
+  
+    .nav-search {
+      width: 95%;
+      margin-top: 10px;
+    }
+  
+    .shop-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 90%;
+      margin: 10px 0;
+    }
+  
+    .panel {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .hero-msg {
+      width: 95%;
+      text-align: center;
+    }
+  
+    .foot-panel2 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    ul {
+      margin-bottom: 20px;
+    }
+  }
+  
